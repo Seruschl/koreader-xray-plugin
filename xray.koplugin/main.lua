@@ -593,6 +593,12 @@ function XRayPlugin:showXRayLanguageSelection()
                 callback = function() setXRayLang("uk") end
             }
         },
+		{
+            {
+                text = "Deutsch" .. (current_xray_lang == "de" and " ✓" or ""), 
+                callback = function() setXRayLang("de") end
+            }
+        },
         {
             {
                 text = "Türkçe" .. (current_xray_lang == "tr" and " ✓" or ""), 
@@ -2078,4 +2084,5 @@ function XRayPlugin:onShowXRayMenu()
 end
 
 return XRayPlugin
+
 
