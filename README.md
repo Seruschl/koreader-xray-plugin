@@ -330,12 +330,18 @@ Examples:
 - 🇹🇷 **Turkish** (Türkçe)
 - 🇬🇧 **English**
 - 🇵🇹 **Brazilian Português**
+- 🇩🇪 **German**
+- 🇷🇺 **Russian**
+- 🇺🇦 **Ukranian**
 
 ### AI Data Languages
 AI automatically provides data in the selected interface language:
 - Turkish interface → AI responses in Turkish
 - English interface → AI responses in English
 - Brazilian Português interface → AI responses in Português
+- German interface → AI responses in German
+- Russian interface → AI responses in Russian
+- Ukranian interface → AI responses in Ukranian
 
 ### Adding New Languages
 
@@ -443,6 +449,9 @@ A: Yes! See Contributing section below.
 ### Language not changing
 - Language change requires menu reopen
 - Check ~/.config/koreader/settings/xray/language.txt
+
+### Some emojis not shown properly
+- Some devices can't handle the colored emojis. If thats the case install noto emoji (not noto colored emoji) font as fallback font and it should work.
 
 ---
 
